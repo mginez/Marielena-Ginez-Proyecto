@@ -7,10 +7,9 @@ class Team:
     self.id = id
   def show_team(self):
     print(f'''
-      ID: {self.id}
-      Country: {self.country}
-      Flag: {self.flag}
-      FIFA Code: {self.code}
-      Group: {self.group}
+ID: {self.id}
+Country: {self.country}
+FIFA Code: {self.code}
+Group: {self.group}
       '''
     )

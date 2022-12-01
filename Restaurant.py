@@ -4,5 +4,4 @@ class Restaurant:
     
   def show_restaurant(self, list):
     print(f'''
-    ID: {list.index(self)}
-    Name: {self.name}''')
+    [ID:{list.index(self)}] {self.name}''')

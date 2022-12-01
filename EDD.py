@@ -100,11 +100,11 @@ def objects():
 
     team_list = objects_teams(edd_teams)
     stadium_list = objects_stadiums(edd_stadiums)
-    products_list = objects_products(edd_stadiums)
+    product_list = objects_products(edd_stadiums)
     match_list = objects_matches(edd_matches)
     restaurant_list = objects_restaurants(edd_stadiums) 
 
-    return team_list, stadium_list, products_list, match_list, restaurant_list
+    return team_list, stadium_list, product_list, match_list, restaurant_list
 
 
 ''' #itertools

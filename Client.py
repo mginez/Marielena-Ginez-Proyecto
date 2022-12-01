@@ -23,6 +23,7 @@ class Ticket(Client):
     self.iva = cost * 0.16
     self.qrcode = ''
     self.total = 0
+    self.used = False
     
   def show_receipt(self):
     

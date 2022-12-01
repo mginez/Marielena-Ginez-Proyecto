@@ -1,4 +1,5 @@
 from Client import Ticket
+
 prueba = Ticket(
     'Marielena',
     123456,
@@ -11,7 +12,7 @@ prueba = Ticket(
 
 clients_db = []
 clients_VIP_db = []
-tickets = [prueba]
-unused_qrcodes = []
-used_qrcodes = []
-matches_attendance = [] ###no se
+ticket_list = [prueba]
+
+
+    
